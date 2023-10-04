@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22222" systemVersion="22G120" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="UserList" representedClassName="UserList" syncable="YES">
+        <attribute name="city" attributeType="String"/>
+        <attribute name="country" optional="YES" attributeType="String"/>
+        <attribute name="dateOfBirth" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="fullName" attributeType="String"/>
+        <attribute name="joinedDate" optional="YES" attributeType="String"/>
+        <attribute name="postcode" attributeType="String"/>
+        <attribute name="profilePic" optional="YES" attributeType="Binary"/>
+        <attribute name="state" attributeType="String"/>
+        <attribute name="userUUID" optional="YES" attributeType="String"/>
+    </entity>
+</model>
